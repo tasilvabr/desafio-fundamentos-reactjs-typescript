@@ -4,6 +4,16 @@ interface CardProps {
   total?: boolean;
 }
 
+export const HR = styled.hr`
+  position: absolute;
+  width: 75px;
+  height: 2px;
+  left: 1122px;
+  top: 69px;
+
+  background: #FF872C;
+`;
+
 export const Container = styled.div`
   width: 100%;
   max-width: 1120px;

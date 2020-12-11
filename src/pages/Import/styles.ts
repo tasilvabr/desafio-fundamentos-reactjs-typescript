@@ -1,6 +1,16 @@
 import styled from 'styled-components';
 import { shade } from 'polished';
 
+export const HR = styled.hr`
+  position: absolute;
+  width: 75px;
+  height: 2px;
+  left: 1235px;
+  top: 69px;
+
+  background: #FF872C;
+`;
+
 export const Container = styled.div`
   width: 100%;
   max-width: 736px;
